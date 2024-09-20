@@ -1,6 +1,7 @@
 import React from "react";
 import HeroImage from "../assets/amico.png";
 import TentangImage from "../assets/image-2.png";
+import LogoWithTitle from '../assets/logowithtitle.png'
 const LandingPage = () => {
   return (
     <div className="bg-secondary">
