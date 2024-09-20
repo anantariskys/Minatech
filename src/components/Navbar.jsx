@@ -9,7 +9,7 @@ const Navbar = () => {
           <li>Beranda</li>
           <li>Tentang</li>
           <li>
-            <button className="rounded-3xl bg-ternary  py-2 px-4 hover:bg-opacity-80 duration-300 shadow-2xl active:scale-95 transition-all">Masuk</button>
+            <button className="rounded-3xl bg-tertiary  py-2 px-4 hover:bg-opacity-80 duration-300 shadow-2xl active:scale-95 transition-all">Masuk</button>
           </li>
         </ul>
       </main>
