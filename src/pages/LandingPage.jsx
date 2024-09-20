@@ -5,11 +5,11 @@ import LogoWithTitle from '../assets/logowithtitle.png'
 const LandingPage = () => {
   return (
     <div className="bg-secondary">
-      <header className="pt-[20vh] container text-center  text-primary space-y-4 flex flex-col items-center justify-center">
-        <h1 className="font-semibold text-6xl text-balance">
+      <header className="pt-[10vh] lg:pt-[20vh] container text-center  text-primary space-y-4 flex flex-col items-center justify-center">
+        <h1 className="font-semibold md:text-4xl text-3xl lg:text-6xl text-balance">
           Temukan Minat dan Kembangkan Keterampilan Anda di Dunia Teknologi!
         </h1>
-        <p className="text-xl w-4/5 text-balance ">
+        <p className="md:text-xl text-sm w-4/5 text-balance ">
           Kami percaya bahwa setiap mahasiswa berhak untuk menemukan dan
           mengeksplorasi potensi mereka. Kami hadir untuk membantu Anda
           mengidentifikasi minat dan keterampilan di bidang ilmu komputer.
@@ -19,12 +19,12 @@ const LandingPage = () => {
         </button>
       </header>
       <section className="container pb-24">
-        <img src={HeroImage} draggable alt="image" className="mx-auto w-2/5" />
+        <img src={HeroImage} draggable alt="image" className="mx-auto lg:w-2/5" />
       </section>
       <section className="container space-y-4">
         <div className="flex items-center gap-[5vw]">
           <div className="w-1/6 aspect-square bg-black"></div>
-          <h2 className="font-semibold text-primary text-5xl">
+          <h2 className="font-semibold text-primary text-2xl  md:text-5xl">
             Selamat datang di MinaTech!
           </h2>
         </div>
